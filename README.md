@@ -57,11 +57,11 @@ Order history
 
 
 ### 3️⃣ Test Case Design
-  Example Manual Test Case
+    Example Manual Test Case
   
-  Title: Successful checkout with valid Visa card
+    Title: Successful checkout with.  valid Visa card
   
-  Steps:
+    Steps:
     1. Login
     
     2. Add product to cart
@@ -82,48 +82,48 @@ Order history
 
 
 ### 4️⃣ API Testing
-  Example Endpoint
-  POST /api/checkout
-  Sample Request
-  {
+  #### Example Endpoint
+    POST /api/checkout
+    Sample Request
+    {
     "userId": 10,
     "items": [{ "id": 5, "qty": 2 }],
     "paymentMethod": "VISA"
-  }
+    }
 #### Llama Prompt
-  Generate Postman test scenarios and validation scripts for this API.
+    Generate Postman test scenarios and validation scripts for this API.
 
 
 ### 5️⃣ Automation Testing (UI)
-  1. Suggested Stack
+    1. Suggested Stack
   
-  2. Selenium + Java
+    2. Selenium + Java
   
-  3. TestNG
+    3. TestNG
   
-  4. Page Object Model (POM)
+    4. Page Object Model (POM)
 
 #### Llama Prompt
-Write Selenium Java automation for checkout flow using POM and TestNG.
+    Write Selenium Java automation for checkout flow using POM and TestNG.
 
 
 
 ### 6️⃣ Defect Reporting
-  Example Bug
+    Example Bug
   
-  Title: Checkout fails with valid MasterCard
-  Severity: Critical
+    Title: Checkout fails with valid MasterCard
+    Severity: Critical
   
   #### Llama Prompt
-  Rewrite this bug report in professional excel format.
+    Rewrite this bug report in professional excel format.
 
 
 ### 7️⃣ Test Summary Report
  #### Llama Prompt
 
-   Generate a QA test summary report including:
-  - Total executed tests
-  - Passed / Failed
-  - Key defects
-  - Risks
-  - Release recommendation
+    Generate a QA test summary report including:
+    - Total executed tests
+    - Passed / Failed
+    - Key defects
+    - Risks
+    - Release recommendation
